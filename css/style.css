@@ -1,0 +1,38 @@
+
+#title h1{
+  text-align: center;
+  color: lightblue;
+  text-shadow: 1px 1px cyan;
+}
+footer{
+  position: fixed;
+  bottom: 0;
+  background-color: lightblue;
+  width: 100%;
+  text-align: center;
+  color:white;
+}
+.box{
+ float: left;
+  padding: 10px;
+  margin-left: 10px;
+  border: 3px solid lightblue;
+  position: relative;
+}
+.box h3{
+  padding: 0;
+  margin: 0;
+}
+.after{
+    /*border: 3px solid lightblue;*/
+    height: auto;
+    width: auto;
+}
+a:link{
+  color: blue;
+  text-decoration: none;
+}
+a:hover{
+  text-shadow: 1px 1px cyan;
+  text-decoration: underline;
+}
